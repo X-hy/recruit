@@ -1,0 +1,44 @@
+.all {
+    background: white;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 50px;
+    .demo {
+        font-size: 16px;
+        color: #333;
+        background: white;
+        overflow: hidden;
+        width: 800px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 5px #ccc;
+        .ver_slick .h3 {
+            background: #fff;
+            color: #000;
+            line-height: 40px;
+            font-size: 16px;
+            flex: 1;
+        }
+
+        .word {
+            height: 50px;
+            z-index: 10000;
+            width:100%;
+            background: white;
+            border-bottom:1px solid #ccc;
+            span {
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                cursor: pointer;
+            }
+            .right{
+                float: right;
+                color: #bbb;
+            }
+    
+        }
+    }
+
+}

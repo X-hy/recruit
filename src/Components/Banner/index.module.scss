@@ -1,0 +1,100 @@
+.all {
+    .photo {
+        width: 100%;
+        height: 478px;
+        background-image: url("https://img.alicdn.com/tfs/TB14TEEm7CWBuNjy0FaXXXUlXXa-1440-478.png");
+        background-repeat: no-repeat;
+    }
+
+    .cover {
+        background: rgba(31, 56, 88, 0.40)
+    }
+
+    .article {
+        position: relative;
+        top: 80px;
+        left: 500px;
+        width: 460px;
+        height: 100px;
+    }
+
+    .banner_e {
+        color: white;
+        font-size: 54px;
+        font-weight: 600;
+        font-family: Rufina-Bold;
+        height: 50px;
+    }
+
+    .banner_p {
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        font-family: PingFangSC-Thin;
+        height: 50px;
+        line-height: 90px;
+        padding-top: 10px;
+    }
+
+    .search {
+        height: 51px;
+        width: 480px;
+        position: relative;
+        left: 480px;
+        top: 180px;
+        border-radius: 5px;
+        background: rgba(248, 249, 250, 0.4);
+        padding: 5px 10px;
+
+        input {
+            margin-top: 5px;
+            height: 41px;
+            width: 340px;
+            border-radius: 2px;
+            border: 0;
+            z-index: 100;
+            outline: none;
+            font-size: 16px;
+            color: #ccc;
+            padding-left: 10px;
+        }
+
+        .button {
+            margin-top: 5px;
+            border-radius: 2px;
+            width: 100px;
+            height: 41px;
+            background-color: rgb(237, 92, 31);
+            color: white;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            margin-left: 30px;
+            cursor: pointer;
+        }
+
+
+    }
+
+    .hot {
+        height: 40px;
+        position: relative;
+        top: 180px;
+        left:500px;
+        li {
+            display: inline-block;
+            color: white;
+            font-size: 12px;
+
+            a {
+                color: white;
+                font-size: 12px;
+                padding-right: 10px;
+            }
+            a:hover{
+                color: #f37327;
+            }
+        }
+    }
+
+}

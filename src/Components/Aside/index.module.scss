@@ -1,0 +1,40 @@
+.all{
+    height: 300px;
+    width: 300px;
+    float: right;
+    background: white;
+    position: relative;
+    top:-300px;
+    right:20px;
+    .up{
+        height: 90px;
+        background: white;
+        width: 300px;
+        position: absolute;
+        top:0;
+        left: 0;
+        text-align: center;
+        padding-top: 50px;
+        img{
+            width:179px;
+            height: 68px;
+            cursor: pointer;
+        }
+    }
+    .down{
+        height: 90px;
+        background: white;
+        width: 300px;
+        position: absolute;
+        top:160px;
+        left: 0;
+        text-align: center;
+        line-height: 140px;
+        // padding-top: 10px;
+        img{
+            width:260px;
+            height: 36.83px;
+            cursor: pointer;
+        }
+    }
+}
